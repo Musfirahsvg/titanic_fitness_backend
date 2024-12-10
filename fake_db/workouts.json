@@ -1,0 +1,15 @@
+[
+    {
+        "name": "some workout",
+        "exercise": [
+            "exercise 1",
+            "exercise 2"
+        ]
+    },
+    {
+        "name": "string",
+        "exersice": [
+            "string"
+        ]
+    }
+]

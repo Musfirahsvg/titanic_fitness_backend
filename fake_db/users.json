@@ -1,7 +1,17 @@
 {
-    "zero@gmail.com":{
-        "eamil":"zero@gmail.com",
-        "password":"1234",
-        "username":"zero"
+    "zero@gmail.com": {
+        "eamil": "zero@gmail.com",
+        "password": "1234",
+        "username": "zero"
+    },
+    "fsdgsdf@gdg": {
+        "email": "fsdgsdf@gdg",
+        "username": "",
+        "password": ""
+    },
+    "adfsd@fsdgs": {
+        "email": "adfsd@fsdgs",
+        "username": "",
+        "password": "sdgsdg"
     }
 }

@@ -12,7 +12,7 @@ def get_all_users():
         
 
 def save_users(new_users):
-    with open(".fake_db/users.json", "w") as file:
+    with open("./fake_db/users.json", "w") as file:
         file.write(json.dumps(new_users, indent=4))    #difference between dumps and dump
         
         

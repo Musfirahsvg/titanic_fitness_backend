@@ -26,13 +26,17 @@ def register(register_data: RegisterForm):
     if email in all_users:
         raise HTTPException(409, "User already exists")
     
-    new_user={
-        "email": register_data.email,
-        "username":register_data.username,
-        "password": register_data.password,    
-    }
+    # new_user={
+    #     "email": register_data.email,
+    #     "username":register_data.username,
+    #     "password": register_data.password,    
+    # }
+    
+    new_user = register_data.model_dump()
+    new_user [ "workouts"] = {}
     
     all_users[email] = new_user
+    
     save_users(all_users)
     return new_user
     
@@ -45,7 +49,7 @@ def login(login_data: LoginForm):
     email = login_data.email
 
     if email not in all_users:
-        raise HTTPException(401, "Invalud Credentials")
+        raise HTTPException(401, "Invalid Credentials")
     
     if all_users[email]["password"] != login_data.password:
         raise HTTPException(401, "Invalid Credentials")

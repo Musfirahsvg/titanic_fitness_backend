@@ -20,13 +20,23 @@ class ExerciseEntry(BaseModel):
     
     
 class WorkoutDay(BaseModel):
-    entries : Dict[str, List[ExerciseEntry]]
+    exercises : Dict[str, List[ExerciseEntry]]
     
     
     
 class Workouts(BaseModel):
     entries : Dict[str, List[ExerciseEntry]]
     
+    
+    
+    
+    
+class AddExercise(BaseModel):
+    user_email:str
+    date:str
+    exercise_name:str
+    reps:int
+    weight:float
     
     
 '''

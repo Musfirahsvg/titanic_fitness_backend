@@ -2,51 +2,18 @@
     "zero@gmail.com": {
         "eamil": "zero@gmail.com",
         "password": "1234",
-        "username": "zero"
-    },
-    "fsdgsdf@gdg": {
-        "email": "fsdgsdf@gdg",
-        "username": "",
-        "password": ""
-    },
-    "adfsd@fsdgs": {
-        "email": "adfsd@fsdgs",
-        "username": "",
-        "password": "sdgsdg"
-    },
-    "ryx@fg.com": {
-        "email": "ryx@fg.com",
-        "username": "DSFSD",
-        "password": "SDFSDF"
-    },
-    "laserbeem@gmail.uk": {
-        "email": "laserbeem@gmail.uk",
-        "username": "fthye5tyfhgfyujm ",
-        "password": "xgvgxdfc"
-    },
-    "laserbeejhjm@gmail.uk": {
-        "email": "laserbeejhjm@gmail.uk",
-        "username": "",
-        "password": "xgvgxdfc"
-    },
-    "laserbeemasdsaws@gmail.uk": {
-        "email": "laserbeemasdsaws@gmail.uk",
-        "username": "dfdsf",
-        "password": "xgvgxdfc"
-    },
-    "laserbeemgffff@gmail.uk": {
-        "email": "laserbeemgffff@gmail.uk",
-        "username": "fffffff",
-        "password": "ffffff"
-    },
-    "laserbfasfsaeem@gmail.uk": {
-        "email": "laserbfasfsaeem@gmail.uk",
-        "username": "dasfda",
-        "password": "xgvgxdfc"
-    },
-    "laserb@gmail.uk": {
-        "email": "laserb@gmail.uk",
-        "username": "laser",
-        "password": "123456"
+        "username": "zero",
+        "workouts": {
+            "string": {
+                "exercises": {
+                    "zero": [
+                        {
+                            "reps": 900,
+                            "weight": 300.0
+                        }
+                    ]
+                }
+            }
+        }
     }
 }
